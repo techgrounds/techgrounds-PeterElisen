@@ -1,12 +1,12 @@
 # LNX-01 Setting UP
 
-[Geef een korte beschrijving van het onderwerp] 
+ 
 
   
 
 ## Key-terms 
 
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.] 
+ 
 
   
 
@@ -19,16 +19,18 @@
 
 ### Gebruikte bronnen 
 
-[Plaats hier de bronnen die je hebt gebruikt.] 
+CHATGPT 
 
   
 
 ### Ervaren problemen 
 
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.] 
-
+N.v.t.
   
 
 ### Resultaat 
 
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).] 
+- Make an SSH-connection to your virtual machine. SSH requires the key file to have specific permissions, so you might need to change those.
+- When the connection is successful, type whoami in the terminal. This command should show your username.
+
+
