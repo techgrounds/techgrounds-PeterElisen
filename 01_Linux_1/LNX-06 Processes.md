@@ -32,4 +32,11 @@
 
 ### Resultaat 
 
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).] 
+- Start the telnet daemon.
+- Find out the PID of the telnet daemon.
+- Find out how much memory telnetd is using.
+- Stop or kill the telnetd process.
+
+![Screenshot](/00_includes/Processes_1.png)
+![Screenshot](/00_includes/Processes_2.png)
+
