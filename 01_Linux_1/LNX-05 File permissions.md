@@ -41,4 +41,10 @@
 - Change the owner of the file to a different user. If everything went well, you shouldn’t be able to read the file unless you assume root privileges with ‘sudo’.
 - Change the group ownership of the file to a different group.
 
+zie : 
+
+![Screenshot](/00_includes/file_1.png)
+![Screenshot](/00_includes/file_2.png)
+
+
 
