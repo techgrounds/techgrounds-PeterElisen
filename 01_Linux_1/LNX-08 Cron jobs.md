@@ -86,8 +86,35 @@ echo "Current date and time written to $file_path"
 
     to run the scipt i did : ~/techgrounds_repo/techgrounds-PeterElisen/01_Linux_1$ ./current_date_script.sh
 
+    Result : Current date and time written to /home/peterelisen/current_date.txt
+
 
 ### Register the script in your crontab so that it runs every minute.
+
+To register the Bash script in the crontab so that it runs every minute, you can follow these steps:
+
+1. Open your terminal.
+
+2. Type the following command to open the crontab file for editing:
+   
+   crontab -e
+   
+
+3. If prompted, choose an editor (such as nano) to edit the crontab file.
+
+4. In the crontab file, add the following line at the end to schedule the script to run every minute:
+   ```
+   * * * * * /path/to/your/script.sh
+   ```
+   Replace `/path/to/your/script.sh` with the actual file path of your Bash script.
+
+5. Save the crontab file and exit the editor.
+
+The above crontab entry uses the following cron syntax: `* * * * *`. Each asterisk represents a field for the minute, hour, day of the month, month, and day of the week, respectively. By setting all fields to asterisks, the script will be executed every minute.
+
+After saving the crontab file, the script will be automatically scheduled to run every minute. It will write the current date and time to the specified file in your home directory. Make sure the script has executable permissions (`chmod +x script.sh`) before adding it to the crontab.
+
+Note that running a script every minute can generate a lot of output or write data frequently, so ensure that the script's actions are suitable for frequent execution.
 
 
 
